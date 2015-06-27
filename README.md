@@ -1,21 +1,3 @@
-[![Build Status](https://travis-ci.org/nanoc/nanoc-rdiscount.png)](https://travis-ci.org/nanoc/nanoc-rdiscount)
-[![Code Climate](https://codeclimate.com/github/nanoc/nanoc-rdiscount.png)](https://codeclimate.com/github/nanoc/nanoc-rdiscount)
-[![Coverage Status](https://coveralls.io/repos/nanoc/nanoc-rdiscount/badge.png?branch=master)](https://coveralls.io/r/nanoc/nanoc-rdiscount)
+This repository was part of the initial attempt at writing nanoc 4. That attempt did not go as initially planned, and was cancelled mid May 2015.
 
-# nanoc-rdiscount
-
-This provides a [RDiscount](http://github.com/rtomayko/rdiscount) filter for [nanoc](http://nanoc.ws).
-
-## Installation
-
-`gem install nanoc-rdiscount`
-
-## Usage
-
-```ruby
-filter :rdiscount
-```
-
-The following options can be passed to the filter:
-
-* `:extensions` (default `[]`): a list of RDiscount extensions
+Do not despair! There is a _true_ nanoc 4, and it lives in the [nanoc/nanoc repository](http://github.com/nanoc/nanoc). For information about nanoc 4 and how to upgrade, consult the [nanoc 4 upgrade guide](http://nanoc.ws/docs/nanoc-4-upgrade-guide/).
